@@ -28,7 +28,7 @@ conda install -c conda-forge jupyterlab
 Navigate to the project directory in your terminal:
 
 ```bash
-cd /home/jerry/inHolland/advanced_machine_learning/pengiun_predictive_ai
+cd DIRECTORY/penguin_predictive_ai
 ```
 
 Start JupyterLab:
@@ -49,26 +49,18 @@ This will open JupyterLab in your default web browser.
 
 ---
 
-## Requirements
+## Requirements (in case they cant be installed through Jupyter)
 
 - Python 3.7+
 - pandas
 - numpy
 - scikit-learn
-- matplotlib or seaborn (for visualization)
+- tensorflow
+- matpotlib
+- seaborn
 
 You can install the required packages with:
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+pip install pandas numpy scikit-learn matplotlib seaborn tensorflow
 ```
-
----
-
-## References
-
-- [palmerpenguins R package](https://allisonhorst.github.io/palmerpenguins/)
-
----
-
-## Author
